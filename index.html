@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NASA Picture of the Day</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="container">
+    <h1>🚀 NASA Picture of the Day</h1>
+
+    <div class="input-group">
+      <input type="date" id="inputDate" />
+      <button id="fetchButton">Get Picture</button>
+    </div>
+
+    <div id="content">
+      <div id="pictureContainer">
+        <img id="nasaImage" alt="NASA Picture of the Day" />
+        <h2 id="title" class="title"></h2>
+        <p id="explanation" class="explanation"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
